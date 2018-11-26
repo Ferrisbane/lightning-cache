@@ -3,6 +3,8 @@
 namespace Ferrisbane\Cache;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\Cache;
+use Carbon\Carbon;
 
 class Laravel5ServiceProvider extends ServiceProvider
 {
